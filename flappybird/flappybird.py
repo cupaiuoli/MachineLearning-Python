@@ -168,7 +168,7 @@ def draw_window(win, bird, pipes, base, score):
 
     pygame.display.update()
 
-def main():
+def game():
     bird = Bird(230, 350)
     pipes = [Pipe(700)]
     base = Base(730)
@@ -217,4 +217,5 @@ def main():
     pygame.quit()
     quit()
 
-main()
+game()
+
